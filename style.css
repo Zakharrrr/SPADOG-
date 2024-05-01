@@ -1,13 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
 
-.ul,li,p,h1,h2,h3,a{
+}
+.container{
+    width: 1620px;
+    margin: 0 auto;
+    font-family:  "Raleway", sans-serif;
+    font-size: 24px;
+}
+ul,p,h1,h2,h3{
     list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+a{
     text-decoration: none;
 }
 /* Styles for header  */
 .header{
     background-color:  #121212;
-width: 1920px;
-height: 100px;
 }
 .header-list{
 display: flex;
@@ -30,19 +42,18 @@ color: #fff;
 /* Styles for section one*/
 .hero{
     background: #fff;
-    width: 1920px;
-height: 800px;
-}
-.hero-container{
     
 }
+.hero-container{
+    display: flex;
+    justify-content: space-between;
 }
-.hero-title{
+
+h1{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 64px;
     color: #000;
-    
     
 }
 .hero-span{
@@ -72,16 +83,14 @@ height: 800px;
 /* Styles for section two */
 
 /* Styles for Footer */
-.footer container{
-
+.footer-container{
+display: flex;
 }
 .footer-wrapper{
     
 }
 .footer{
     background-color: #121212;
-    width: 1920px;
-    height: 150px;
 }
 .footer-img{
 
@@ -91,4 +100,5 @@ height: 800px;
     font-family: "Raleway", sans-serif;
 font-weight: 400;
 font-size: 24px;
+color: #fff;
 }
