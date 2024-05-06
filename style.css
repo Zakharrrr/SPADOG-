@@ -21,17 +21,17 @@ a{
 .header{
     background-color:  #121212;
     padding: 32px 0;
+    text-transform: uppercase;
 }
 .header-list{
 display: flex;
 gap:100px;
 }
-.header-link-one{
-    font-weight: 400;
-    font-family:  "Oswald", sans-serif;
+.header-span:hover{
+    font-family:"Oswald", sans-serif ;
+font-weight: 400;
 font-size: 24px;
 color: #b2ffa6;
-padding-left: 150px;
 }
 .header-link{
     font-weight: 400;
@@ -53,7 +53,7 @@ h1{
     font-size: 64px;
     color: #000;
     margin-bottom: 50px;
-    margin-left: 150px;
+    text-transform: capitalize;
 }
 .hero-span{
     font-weight: 400;
@@ -71,7 +71,6 @@ h1{
 font-weight: 400;
 font-size: 24px;
 color: #000;
-margin-left: 150px;
 }
 /* Styles for section two */
 .about-us{
@@ -82,16 +81,18 @@ display: flex;
 align-items: center;
 }
 .about-us-title{
+    gap:30px;
     font-weight: 700;
     font-size: 40px;
     color: #000;
+    text-transform: capitalize;
+    margin-bottom: 30px;
 }
 .about-us-text{
     font-weight: 400;
     font-size: 32px;
     color: #000;
-}
-.about-us-img{
+    padding-bottom: 30px ;
 }
 .about-us-button{
     border-radius: 5px;
@@ -109,6 +110,7 @@ color: #000;
 }
 .advantages-container{
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-between;
 }
 .advantages-caption{
@@ -121,16 +123,22 @@ font-weight: 400;
 font-size: 24px;
 color: #000;
 }
+.advantages-img{
+
+}
 /* Styles for section four */
 .services{
     background-color: #efefef;
 }
 .services-container{
-    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 }
 .services-title{
 font-weight: 700;
 font-size: 40px;
+text-align: center;
 color: #000;
 }
 .services-text{
@@ -167,7 +175,6 @@ justify-content: space-between;
     background-color: #121212;
 }
 .footer-img{
-margin-left: 150px;
 margin-top: 36px ;
 margin-bottom: 36px;
 }
@@ -176,6 +183,6 @@ margin-bottom: 36px;
 font-weight: 400;
 font-size: 24px;
 color: #fff;
-margin-right: 150px;
 margin-top: 61px;
+text-transform: capitalize;
 }
