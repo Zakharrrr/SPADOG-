@@ -27,7 +27,7 @@ a{
 display: flex;
 gap:100px;
 }
-.header-span:hover{
+.header-link:hover{
     font-family:"Oswald", sans-serif ;
 font-weight: 400;
 font-size: 24px;
@@ -71,6 +71,7 @@ h1{
 font-weight: 400;
 font-size: 24px;
 color: #000;
+text-transform: uppercase;
 }
 /* Styles for section two */
 .about-us{
@@ -92,79 +93,108 @@ align-items: center;
     font-weight: 400;
     font-size: 32px;
     color: #000;
-    padding-bottom: 30px ;
+    margin-bottom: 30px;
+}
+.button{
+    margin-top: 60px;
 }
 .about-us-button{
     border-radius: 5px;
     padding: 15px 80px;
-    width: 286px;
-    height: 66px;
     background: #b2ffa6;
     font-family:"Oswald", sans-serif ;
 font-weight: 400;
 color: #000;
+display: inline-block;
+text-transform: uppercase;
 }
 /* Styles for section three */
 .advantages{
     background-color: #fff;
+padding: 60px 0 ;
+
 }
 .advantages-container{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
+    display: flex; 
+    align-items: center;
 }
 .advantages-caption{
     font-weight: 700;
     font-size: 32px;
     color: #000;
+    margin-bottom: 25px;
 }
 .advantages-text{
 font-weight: 400;
 font-size: 24px;
 color: #000;
 }
+.advantages-list{
+display: flex;
+flex-wrap: wrap;
+gap:115px;
+}
+.advantages-item{
+display: flex;
+width: 407px;
+}
+.advantages-image{
+    
+}
 .advantages-img{
-
+margin-right: 28px;
+width: 50px;
+height: 50px;
 }
 /* Styles for section four */
 .services{
     background-color: #efefef;
+    padding: 60px 0;
+    text-align: center;
 }
 .services-container{
-    justify-content: space-between;
-    align-items: center;
+  
 }
-}
+
 .services-title{
 font-weight: 700;
 font-size: 40px;
 text-align: center;
 color: #000;
+padding-top: 60px;
+padding-bottom: 40px;
 }
 .services-text{
 font-weight: 400;
 font-size: 32px;
 text-align: center;
 color: #000;
+margin-bottom: 56px;
 }
 .services-img{
     border-radius: 10px;
+    margin-right: 20px;
 }
 .services-texto{
 font-weight: 600;
 font-size: 24px;
 color: #000;
+text-align: left;
+}
+.services-list{
+display: flex;
 }
 .services-button{
     border: 3px solid #b2ffa6;
 border-radius: 5px;
 padding: 15px 80px;
-width: 356px;
-height: 66px;
 font-family:"Oswald", sans-serif ;
 font-weight: 400;
 font-size: 24px;
 color: #000;
+display: inline-block;
+justify-content: center;
+text-transform: uppercase;
 }
 /* Styles for Footer */
 .footer-container{
