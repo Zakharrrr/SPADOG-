@@ -1,13 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-
+    font-family:  "Raleway", sans-serif;
+    font-size: 24px;
 }
 .container{
     width: 1620px;
     margin: 0 auto;
-    font-family:  "Raleway", sans-serif;
-    font-size: 24px;
 }
 ul,p,h1,h2,h3{
     list-style-type: none;
@@ -55,11 +54,15 @@ h1{
     margin-bottom: 50px;
     text-transform: capitalize;
 }
+.hero-title{
+padding-bottom: 40px;
+}
 .hero-span{
     font-weight: 400;
     font-size: 64px;
     color: #000;
     margin-bottom: 20px;
+    display: inline-block;
     }
 .hero-button{
     border-radius: 5px;
@@ -80,6 +83,7 @@ text-transform: uppercase;
 .about-us-container{
 display: flex;
 align-items: center;
+gap:78px;
 }
 .about-us-title{
     gap:30px;
@@ -94,9 +98,6 @@ align-items: center;
     font-size: 32px;
     color: #000;
     margin-bottom: 30px;
-}
-.button{
-    margin-top: 60px;
 }
 .about-us-button{
     border-radius: 5px;
@@ -161,7 +162,6 @@ font-weight: 700;
 font-size: 40px;
 text-align: center;
 color: #000;
-padding-top: 60px;
 padding-bottom: 40px;
 }
 .services-text{
@@ -195,24 +195,25 @@ color: #000;
 display: inline-block;
 justify-content: center;
 text-transform: uppercase;
+margin-top: 80px;
 }
 /* Styles for Footer */
 .footer-container{
 display: flex;
 justify-content: space-between;
+padding: 36px 0;
 }
 .footer{
     background-color: #121212;
 }
 .footer-img{
-margin-top: 36px ;
-margin-bottom: 36px;
+
 }
 .footer-text{
     font-family: "Raleway", sans-serif;
 font-weight: 400;
 font-size: 24px;
 color: #fff;
-margin-top: 61px;
 text-transform: capitalize;
+padding: 36px;
 }
