@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family:  "Raleway", sans-serif;
     font-size: 24px;
+    font-weight: 400;
+    color: #000;
 }
 .container{
     width: 1620px;
@@ -47,20 +49,15 @@ color: #fff;
     align-items: center;
     justify-content: space-between;
 }
-h1{
+.hero-title{
     font-weight: 700;
     font-size: 64px;
-    color: #000;
     margin-bottom: 50px;
     text-transform: capitalize;
-}
-.hero-title{
-padding-bottom: 40px;
 }
 .hero-span{
     font-weight: 400;
     font-size: 64px;
-    color: #000;
     margin-bottom: 20px;
     display: inline-block;
     }
@@ -71,8 +68,6 @@ padding-bottom: 40px;
     height: 66px;
     background-color: #b2ffa6;
     font-family:"Oswald", sans-serif ;
-font-weight: 400;
-font-size: 24px;
 color: #000;
 text-transform: uppercase;
 }
@@ -89,14 +84,12 @@ gap:78px;
     gap:30px;
     font-weight: 700;
     font-size: 40px;
-    color: #000;
     text-transform: capitalize;
     margin-bottom: 30px;
 }
 .about-us-text{
     font-weight: 400;
     font-size: 32px;
-    color: #000;
     margin-bottom: 30px;
 }
 .about-us-button{
@@ -113,7 +106,6 @@ text-transform: uppercase;
 .advantages{
     background-color: #fff;
 padding: 60px 0 ;
-
 }
 .advantages-container{
     display: flex; 
@@ -122,13 +114,11 @@ padding: 60px 0 ;
 .advantages-caption{
     font-weight: 700;
     font-size: 32px;
-    color: #000;
     margin-bottom: 25px;
 }
 .advantages-text{
 font-weight: 400;
 font-size: 24px;
-color: #000;
 }
 .advantages-list{
 display: flex;
@@ -138,9 +128,6 @@ gap:115px;
 .advantages-item{
 display: flex;
 width: 407px;
-}
-.advantages-image{
-    
 }
 .advantages-img{
 margin-right: 28px;
@@ -153,36 +140,32 @@ height: 50px;
     padding: 60px 0;
     text-align: center;
 }
-.services-container{
-  
-}
-
 .services-title{
 font-weight: 700;
 font-size: 40px;
 text-align: center;
-color: #000;
 padding-bottom: 40px;
 }
 .services-text{
 font-weight: 400;
 font-size: 32px;
 text-align: center;
-color: #000;
 margin-bottom: 56px;
 }
 .services-img{
     border-radius: 10px;
-    margin-right: 20px;
+margin-bottom: 20px;
 }
 .services-texto{
 font-weight: 600;
 font-size: 24px;
-color: #000;
 text-align: left;
 }
 .services-list{
 display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
 }
 .services-button{
     border: 3px solid #b2ffa6;
@@ -201,13 +184,12 @@ margin-top: 80px;
 .footer-container{
 display: flex;
 justify-content: space-between;
+align-items: center;
+
 padding: 36px 0;
 }
 .footer{
     background-color: #121212;
-}
-.footer-img{
-
 }
 .footer-text{
     font-family: "Raleway", sans-serif;
@@ -215,5 +197,4 @@ font-weight: 400;
 font-size: 24px;
 color: #fff;
 text-transform: capitalize;
-padding: 36px;
 }
